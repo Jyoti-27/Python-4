@@ -1,0 +1,168 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# # Sets
+# 
+# - Collection of elements with different data types 
+# - Collection unique elements
+# - Indexing can not  be performed in set
+# - Sets follow order# Sets
+# 
+# - Collection of elements with different data types 
+# - Collection unique elements
+# - Indexing can not  be performed in set
+# - Sets follow order 
+# 
+
+# - Set can be built using set ()nand {}
+
+# In[2]:
+
+
+# Note the double round - brackets while passing more than one value
+myset1 = set ([ 'Dta Science', 'AI', 'Machine Learning', 'Statistics'])
+myset1
+               
+
+
+# In[12]:
+
+
+A = {1, 1, 1, 2, 2, 5, 10, 5, 80, 50, 55, 55, 60, True, False, 0}
+A
+
+
+# In[6]:
+
+
+type(A)
+
+
+# In[13]:
+
+
+len(A)
+
+
+# In[18]:
+
+
+B = { 'Innovative', 'Technology',1,2,3,3}
+B
+
+
+# In[20]:
+
+
+type(B)
+
+
+# In[22]:
+
+
+len(B)
+
+
+# In[33]:
+
+
+C = {22,35,21,45,32,67,87,1,0}
+print(C)
+
+
+# In[29]:
+
+
+C = {22,35,21,45,32,67,87,1,0}
+C
+
+
+# In[26]:
+
+
+D= {3,4,5,0,1,8,9,6}
+D
+
+
+# In[30]:
+
+
+D= {3,4,5,0,1,8,9,6}
+print(D)
+
+
+# In[31]:
+
+
+B.add(5)
+B
+
+
+# In[35]:
+
+
+B.add(0)
+B
+
+
+# In[37]:
+
+
+B.add('Pvtltd')
+B
+
+
+# In[39]:
+
+
+B.add('ZERO')
+B
+
+
+# - Discard a item
+
+# In[40]:
+
+
+B.discard(5)
+B
+
+
+# In[41]:
+
+
+B.remove(2)
+
+
+# In[43]:
+
+
+B
+
+
+# - Difference
+
+# In[45]:
+
+
+A
+
+
+# In[47]:
+
+
+B
+
+
+# In[49]:
+
+
+A.difference(B)
+
+
+# In[ ]:
+
+
+
+
+
